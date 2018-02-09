@@ -1,0 +1,5 @@
+package com.stormwind.clientscanner.ClientScanner.device;
+
+public class Device {
+
+}

@@ -8,3 +8,55 @@
 2018-02-09 12:24:22,368 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\main\resources
 2018-02-09 12:24:22,373 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-02-09 12:24:22,374 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\test\resources
+2018-02-09 14:36:18,327 [Worker-92] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.stormwind.clientscanner:ClientScanner:0.0.1-SNAPSHOT @ C:\scanner\ClientScanner\pom.xml.
+2018-02-09 14:36:20,003 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 14:36:20,003 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\main\resources
+2018-02-09 14:36:20,007 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 14:36:20,007 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\test\resources
+2018-02-09 14:36:21,503 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 14:36:26,151 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\main\resources
+2018-02-09 14:36:26,155 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 14:36:26,155 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\test\resources
+2018-02-09 14:36:32,356 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-02-09 16:11:20,838 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-02-09 16:11:23,800 [Worker-101] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\scanner\ClientScanner
+2018-02-09 16:11:23,920 [Worker-101] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2018-02-09 16:13:43,319 [Worker-105] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\scanner\ClientScanner
+2018-02-09 16:13:43,330 [Worker-105] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2018-02-09 16:14:11,658 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 16:14:11,666 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\main\resources
+2018-02-09 16:14:11,675 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 16:14:11,683 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\test\resources
+2018-02-09 16:14:41,026 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-02-09 16:14:44,736 [Worker-106] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\scanner\ClientScanner
+2018-02-09 16:14:44,736 [Worker-106] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B build
+2018-02-09 16:15:42,617 [Worker-107] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\scanner\ClientScanner
+2018-02-09 16:15:42,628 [Worker-107] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-02-09 16:15:48,683 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 16:15:48,684 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\main\resources
+2018-02-09 16:15:48,694 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 16:15:48,702 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\test\resources
+2018-02-09 16:19:37,789 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 16:19:37,789 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\main\resources
+2018-02-09 16:19:37,810 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 16:19:37,825 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\test\resources
+2018-02-09 16:19:38,962 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 16:19:38,962 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\main\resources
+2018-02-09 16:19:38,971 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 16:19:38,979 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\test\resources
+2018-02-09 16:20:38,629 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 16:20:38,630 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\main\resources
+2018-02-09 16:20:38,642 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 16:20:38,652 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\test\resources
+2018-02-09 16:21:05,885 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 16:21:05,886 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\main\resources
+2018-02-09 16:21:05,892 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 16:21:05,898 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\test\resources
+2018-02-09 16:21:34,494 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 16:21:34,495 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\main\resources
+2018-02-09 16:21:34,504 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 16:21:34,512 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\test\resources
+2018-02-09 16:23:16,253 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 16:23:16,493 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-09 16:23:16,622 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-09 16:23:16,637 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\scanner\ClientScanner\src\test\resources

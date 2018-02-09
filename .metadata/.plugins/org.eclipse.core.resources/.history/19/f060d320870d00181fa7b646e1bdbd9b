@@ -1,0 +1,11 @@
+package com.stormwind.clientscanner.ClientScanner.device;
+
+/**
+ * 
+ * @author Sharad
+ *
+ */
+public class Device {
+	private String ip;
+	
+}
