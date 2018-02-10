@@ -1,0 +1,5 @@
+package com.stormwind.clientscanner.util.dto;
+
+public class Result {
+
+}

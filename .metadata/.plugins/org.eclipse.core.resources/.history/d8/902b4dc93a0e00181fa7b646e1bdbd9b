@@ -1,0 +1,9 @@
+package com.stormwind.clientscanner.device.impl;
+
+import java.util.List;
+import com.stormwind.clientscanner.device.DeviceInfo;
+import com.stormwind.clientscanner.device.dto.ProgramObject;
+
+public class WindowsDeviceInfo extends DeviceInfo{
+	
+}

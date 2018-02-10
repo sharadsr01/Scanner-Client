@@ -1,0 +1,21 @@
+package com.stormwind.clientscanner.device.dto;
+
+import java.util.List;
+
+public class SystemInfo {
+	
+	List<InfoItem> sysInfoItems;
+	private void ENUM() {
+		// TODO Auto-generated method stub
+
+	} Status;
+
+	public List<InfoItem> getSysInfoItems() {
+		return sysInfoItems;
+	}
+
+	public void setSysInfoItems(List<InfoItem> sysInfoItems) {
+		this.sysInfoItems = sysInfoItems;
+	}
+
+}

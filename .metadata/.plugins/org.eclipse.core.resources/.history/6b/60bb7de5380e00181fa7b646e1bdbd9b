@@ -1,0 +1,23 @@
+package com.stormwind.clientscanner;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	String abc="ABCD";
+    	System.out.println(abc.length());
+    	System.out.println(abc.indexOf(D));
+    	/*
+    	ApplicationContext context=new ClassPathXmlApplicationContext("Beans.xml");
+    	Runner r=(Runner)context.getBean("runner");
+    	r.execute();
+    	*/
+    }
+}

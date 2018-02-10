@@ -1,0 +1,44 @@
+package com.stormwind.clientscanner.device.impl;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.stormwind.clientscanner.device.DeviceInfo;
+import com.stormwind.clientscanner.device.ProgramObject;
+import com.stormwind.clientscanner.device.SystemInfo;
+
+public class WindowsDeviceInfo extends DeviceInfo{
+	
+	public List<ProgramObject> getInstalledPrograms(){
+		return null;
+	}
+	public List<SystemInfo> getSystemInfo()
+	{
+		List<SystemInfo> _result=new ArrayList<SystemInfo>();
+		ProcessBuilder builder = new ProcessBuilder("cmd.exe","/c","systeminfo");
+		builder.redirectErrorStream(true);
+		try{
+			Process p=builder.start();
+			BufferedReader br=new BufferedReader(new InputStreamReader(p.getInputStream()));
+			String line;
+			while(true)
+			{
+				line = br.readLine();
+	            if (line == null) { break; }
+	            SystemInfo local=new SystemInfo();
+	            local.setPropertyName(line);
+	            local.setPropertyValue(line);
+	            _result.add(local);
+			}
+		}
+		catch(IOException ex)
+		{
+			return null;
+		}
+		
+		return _result;
+	}
+}

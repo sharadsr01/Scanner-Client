@@ -1,0 +1,30 @@
+package com.stormwind.clientscanner;
+
+import java.util.List;
+
+import com.stormwind.clientscanner.device.DeviceInfo;
+import com.stormwind.clientscanner.device.dto.SystemInfo;
+
+public class Runner {
+	
+	DeviceInfo deviceInfo;
+	
+	public DeviceInfo getDeviceInfo() {
+		return deviceInfo;
+	}
+
+	public void setDeviceInfo(DeviceInfo deviceInfo) {
+		this.deviceInfo = deviceInfo;
+	}
+
+	public void execute(){
+		System.out.println("START EXECUTIOn");
+		List<SystemInfo> _list =deviceInfo.getSystemInfo();
+		for(SystemInfo item:_list)
+		{
+			System.out.println(item.getPropertyName()+"\t:\t"+item.getPropertyValue());
+		}
+		
+	}
+	
+}

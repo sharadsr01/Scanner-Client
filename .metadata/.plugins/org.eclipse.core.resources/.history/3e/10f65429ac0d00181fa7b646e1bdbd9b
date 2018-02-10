@@ -1,0 +1,5 @@
+package com.stormwind.clientscanner.device;
+
+public abstract class ProgramObject {
+
+}

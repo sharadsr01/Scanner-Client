@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="com.stormwind.clientscanner.util.UtilTest" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="com.stormwind.clientscanner.util.UtilTest" time="0.23">
+    <testcase name="testRunCmd" classname="com.stormwind.clientscanner.util.UtilTest" time="0.23">
+      <failure>junit.framework.AssertionFailedError: expected:&lt;ERROR&gt; but was:&lt;SUCCESS&gt;
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:71)
+	at com.stormwind.clientscanner.util.UtilTest.testRunCmd(UtilTest.java:32)
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

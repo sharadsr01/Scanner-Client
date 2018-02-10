@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	<bean id="runner" class="com.stormwind.clientscanner.Runner">
+		<property name="deviceInfo" ref="deviceInfo"/>
+	</bean>
+	
+	<bean id="deviceInfo" class="com.stormwind.clientscanner.device.impl.WindowsDeviceInfo">
+		<property name="systemInfo" ref="systemInfo"/>
+	</bean>
+	
+	<bean id="systemInfo" class="com.stormwind.clientscanner.device.dto.SystemInfo"/>
+		
+</beans>

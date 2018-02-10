@@ -1,0 +1,9 @@
+package com.stormwind.clientscanner.device;
+
+import java.util.List;
+
+public interface IDeviceInfo<E> {
+	
+	public List<E> getInstalledPrograms
+	
+}

@@ -1,0 +1,21 @@
+package com.stormwind.clientscanner;
+import com.stormwind.clientscanner.device.DeviceInfo;
+import com.stormwind.clientscanner.device.dto.SystemInfo;
+
+public class Runner {
+	
+	DeviceInfo deviceInfo;
+	
+	public DeviceInfo getDeviceInfo() {
+		return deviceInfo;
+	}
+
+	public void setDeviceInfo(DeviceInfo deviceInfo) {
+		this.deviceInfo = deviceInfo;
+	}
+
+	public void execute(){
+		deviceInfo.print();
+	}
+	
+}

@@ -1,0 +1,21 @@
+package com.stormwind.clientscanner.device.impl;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.stormwind.clientscanner.device.DeviceInfo;
+import com.stormwind.clientscanner.device.dto.InfoItem;
+import com.stormwind.clientscanner.device.dto.ProgramObject;
+import com.stormwind.clientscanner.device.dto.SystemInfo;
+
+public class WindowsDeviceInfo extends DeviceInfo{
+	
+	
+	
+	public List<ProgramObject> getInstalledPrograms(){
+		return null;
+	}
+}

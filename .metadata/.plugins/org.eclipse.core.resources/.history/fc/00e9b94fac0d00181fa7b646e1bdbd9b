@@ -1,0 +1,16 @@
+package com.stormwind.clientscanner;
+
+import org.springframework.context.ApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	ApplicationContext
+        System.out.println( "Hello World!" );
+    }
+}

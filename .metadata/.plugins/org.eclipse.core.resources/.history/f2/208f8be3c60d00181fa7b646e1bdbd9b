@@ -1,0 +1,8 @@
+package com.stormwind.clientscanner.util;
+
+public class Util {
+	
+	public void runOnCommandLine(){
+		
+	}
+}

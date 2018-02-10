@@ -1,0 +1,13 @@
+package com.stormwind.clientscanner.device.impl;
+
+import java.util.List;
+
+import com.stormwind.clientscanner.device.IDeviceInfo;
+import com.stormwind.clientscanner.device.ProgramObject;
+import com.stormwind.clientscanner.device.SystemInfo;
+
+public class WindowsDeviceInfo implements IDeviceInfo{
+	
+	public List<ProgramObject> getInstalledPrograms();
+	public List<SystemInfo> getSystemInfo();
+}

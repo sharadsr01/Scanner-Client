@@ -1,0 +1,8 @@
+package com.stormwind.clientscanner.device;
+
+public abstract class DeviceInfo {
+	
+	private SystemInfo systemInfo;
+	
+	
+}

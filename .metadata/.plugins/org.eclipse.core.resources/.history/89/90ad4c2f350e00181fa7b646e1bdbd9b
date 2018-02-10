@@ -1,0 +1,10 @@
+package com.stormwind.clientscanner.util.dto;
+
+import java.util.List;
+
+public class Result {
+	public enum Status{TIMEOUT,SUCCESS,WMIC_DISABLED,NOT_INITIALIZED,ERROR}
+	private Status status;
+	private List<E> <String> result;
+
+}

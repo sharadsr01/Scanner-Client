@@ -1,0 +1,12 @@
+package com.stormwind.clientscanner.util;
+
+public class Util {
+	
+	public void runCmd(){
+
+	}
+	
+	public void runCmdWithTimeout(){
+		
+	}
+}

@@ -1,0 +1,33 @@
+package com.stormwind.clientscanner.device.impl;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.List;
+
+import com.stormwind.clientscanner.device.IDeviceInfo;
+import com.stormwind.clientscanner.device.ProgramObject;
+import com.stormwind.clientscanner.device.SystemInfo;
+
+public class WindowsDeviceInfo implements IDeviceInfo{
+	
+	public List<ProgramObject> getInstalledPrograms(){
+		return null;
+	}
+	public List<SystemInfo> getSystemInfo()
+	{
+		ProcessBuilder builder = new ProcessBuilder("cmd.exe","/c","systeminfo");
+		builder.redirectErrorStream(true);
+		Process p=builder.start();
+		BufferedReader br=new BufferedReader(new InputStreamReader(p.getInputStream()));
+		String line;
+		while(true)
+		{
+			line = r.readLine();
+            if (line == null) { break; }
+            System.out.println(line);
+		}
+		
+		
+		return null;
+	}
+}

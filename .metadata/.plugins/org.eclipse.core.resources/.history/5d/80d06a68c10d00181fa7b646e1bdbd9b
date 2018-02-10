@@ -1,0 +1,18 @@
+package com.stormwind.clientscanner.device.dto;
+
+import java.util.List;
+
+public class SystemInfo {
+	
+	List<InfoItem> sysInfoItems;
+	boolean lastRequestFalied;
+
+	public List<InfoItem> getSysInfoItems() {
+		return sysInfoItems;
+	}
+
+	public void setSysInfoItems(List<InfoItem> sysInfoItems) {
+		this.sysInfoItems = sysInfoItems;
+	}
+
+}

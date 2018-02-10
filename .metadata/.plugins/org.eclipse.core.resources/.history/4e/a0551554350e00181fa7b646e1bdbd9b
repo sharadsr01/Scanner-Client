@@ -1,0 +1,68 @@
+package com.stormwind.clientscanner.util;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.stormwind.clientscanner.device.dto.InfoItem;
+import com.stormwind.clientscanner.device.dto.SystemInfo;
+
+public class Util {
+	
+	public static Result runCmd(String command){
+		SystemInfo sysinfo=new SystemInfo();
+		sysinfo.setSysInfoItems(new ArrayList<InfoItem>());
+		sysinfo.setStatus(SystemInfo.Status.NOT_INITIALIZED);
+		//"systeminfo"
+		ProcessBuilder builder = new ProcessBuilder("cmd.exe","/c",command);
+		builder.redirectErrorStream(true);
+		try{
+			Process p=builder.start();
+			BufferedReader br=new BufferedReader(new InputStreamReader(p.getInputStream()));
+			String line;
+			while(true)
+			{
+				line = br.readLine();
+	            if (line == null) { break; }
+	            InfoItem local=new InfoItem(line,line);
+	            sysinfo.getSysInfoItems().add(local);
+			}
+			sysinfo.setStatus(SystemInfo.Status.SUCCESS);
+		}
+		catch(IOException ex)
+		{
+			sysinfo.setStatus(SystemInfo.Status.ERROR);
+		}
+		return sysinfo;
+
+	}
+	
+	public SystemInfo runCmdWithTimeout(String command){
+		SystemInfo sysinfo=new SystemInfo();
+		sysinfo.setSysInfoItems(new ArrayList<InfoItem>());
+		sysinfo.setStatus(SystemInfo.Status.NOT_INITIALIZED);
+		//"systeminfo"
+		ProcessBuilder builder = new ProcessBuilder("cmd.exe","/c",command);
+		builder.redirectErrorStream(true);
+		try{
+			Process p=builder.start();
+			BufferedReader br=new BufferedReader(new InputStreamReader(p.getInputStream()));
+			String line;
+			while(true)
+			{
+				line = br.readLine();
+	            if (line == null) { break; }
+	            InfoItem local=new InfoItem(line,line);
+	            sysinfo.getSysInfoItems().add(local);
+			}
+			sysinfo.setStatus(SystemInfo.Status.SUCCESS);
+		}
+		catch(IOException ex)
+		{
+			sysinfo.setStatus(SystemInfo.Status.ERROR);
+		}
+		return sysinfo;
+	}
+}

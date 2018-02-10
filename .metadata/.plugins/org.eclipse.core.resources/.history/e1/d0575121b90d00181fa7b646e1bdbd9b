@@ -1,0 +1,16 @@
+package com.stormwind.clientscanner.device;
+
+public abstract class DeviceInfo {
+	
+	private SystemInfo systemInfo;
+
+	public SystemInfo getSystemInfo() {
+		return systemInfo;
+	}
+
+	public void setSystemInfo(SystemInfo systemInfo) {
+		this.systemInfo = systemInfo;
+	}
+	
+	
+}

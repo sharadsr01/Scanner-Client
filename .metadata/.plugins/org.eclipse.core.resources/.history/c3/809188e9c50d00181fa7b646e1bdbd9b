@@ -1,0 +1,31 @@
+package com.stormwind.clientscanner.device.dto;
+
+import java.util.List;
+
+public class SystemInfo {
+	
+	List<InfoItem> sysInfoItems;
+	enum Status{TIMEOUT,SUCCESS,WMIC_DISABLED,NOT_INITIALIZED,ERROR}
+	Status status=Status.NOT_INITIALIZED;
+	
+	public void initialize(){
+		System.out.println("INSIDR INTT");
+	}
+	
+	public Status getStatus() {
+		return status;
+	}
+
+	public void setStatus(Status status) {
+		this.status = status;
+	}
+
+	public List<InfoItem> getSysInfoItems() {
+		return sysInfoItems;
+	}
+
+	public void setSysInfoItems(List<InfoItem> sysInfoItems) {
+		this.sysInfoItems = sysInfoItems;
+	}
+
+}

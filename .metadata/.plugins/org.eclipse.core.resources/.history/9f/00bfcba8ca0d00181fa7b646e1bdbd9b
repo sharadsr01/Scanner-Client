@@ -1,0 +1,46 @@
+package com.stormwind.clientscanner.device.dto;
+
+import java.util.List;
+
+import com.stormwind.clientscanner.util.Util;
+
+public class SystemInfo {
+	
+	private List<InfoItem> sysInfoItems;
+	private Util util;
+	
+	public enum Status{TIMEOUT,SUCCESS,WMIC_DISABLED,NOT_INITIALIZED,ERROR}
+	private Status status=Status.NOT_INITIALIZED;
+	
+	public void initialize(){
+		SystemInfo sysInfo=util.runCmd("systeminfo");
+		this.setSysInfoItems(sysInfo.getSysInfoItems());
+		this.setStatus(sysInfo.getStatus());
+	}
+	
+	public void print(){
+		System.out.println("Printing the system Info");
+		for(InfoItem item:sysInfoItems)
+		{
+			System.out.println(item.getPropertyName()+"\t:\t"+item.getPropertyValue());
+			
+		}
+	}
+	
+	public Status getStatus() {
+		return status;
+	}
+
+	public void setStatus(Status status) {
+		this.status = status;
+	}
+
+	public List<InfoItem> getSysInfoItems() {
+		return sysInfoItems;
+	}
+
+	public void setSysInfoItems(List<InfoItem> sysInfoItems) {
+		this.sysInfoItems = sysInfoItems;
+	}
+
+}
